@@ -1,0 +1,28 @@
+Alles im Word Dokument 133.Aufgabe8_RamonSchenk.doc zu finden
+
+Übungsaufgaben
+
+Lesen Sie die Seiten S. 278-287 Analyse und Design aus dem Buch Analyse und Design mit der UML 2.5 (s. Modulordner Diverses). Hinweis: für unsere Arbeit benö-tigen wir keine Signale und Unterbrechungen S. 287- 289 im Buch.
+
+Beantworten Sie schriftlich die folgenden Fragen zum Aktivitätsdiagramm auf S. 278
+
+Frage 1:	Was könnte die Aktivität „Kunde identifizieren“ alles beinhalten?
+Antwort:    Im Bezug auf ein Web-Interface z.B. ein Login mit Benutzername und
+            Passwort. Oder eine Identifikation über Cookie/Session.
+
+Frage 2:	Warum ist die Entscheidung [Kunde aufnehmen] etwas kurzsichtig?
+Antwort:    Weil bei einem nicht existenten Login einfach einer erstellt wird
+            ohne den Kunden zu Validieren bzw. Informationen über ihn zu bekommen.
+            Dies müsste vor dem Identifizieren mit einem Registrierungsvorgang
+            gelöst werden oder in einer separaten Aktivität realisiert werden.
+
+Frage 3:	Der Kontrollfluss [kein Kfz verfügbar] könnte ablauftechnisch zu einem Problem
+            führen. Schreiben Sie Ihre Meinung dazu und formulieren Sie eine verbesserte Lösung.
+Antwort:    Es wäre sinnvoller dem User eine Liste der verfügbaren Autos anzuzeigen, so läuft er
+            nicht gefahr etwas auszuwählen das bereits reserviert wurde. (Siehe Diagramm)
+
+Frage 4:	Optional: Sie sehen rechts unten, dass eine Instanz der Klasse :Reservierung gebildet wird.
+            Erweitern Sie das Diagramm mit einer ähnlich sinnvollen Instanz nach der Aktivität
+            „Reservierung bestätigen“
+Antwort:    Frage nicht ganz verstanden, aber habe eine effektivere Version des Diagramms am Ende des
+            Dokuments angehängt.

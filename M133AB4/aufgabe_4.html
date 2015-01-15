@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Tilename:   aufgabe_4.html
+Author:     Ramon Schenk
+Datum:      2014
+Modul:      M133
+Klasse:     Inf12.5H
+-->
+<html>
+<head><title>JavaScript-Workshop: Musterl�sung</title>
+    <script language="JavaScript" type="text/javascript">
+
+        var person = new Array();
+
+        person["name"]      = "Jackson Browne";
+        person["anschrift"] = "12358 Ventura Boulevard #361";
+        person["ort"]       = "Studio City, CA";
+        person["plz"]       = "91604";
+
+    </script>
+</head>
+<body>
+<h1>Assoziative Arrays</h1>
+
+<script language="JavaScript" type="text/javascript">
+
+    document.writeln("<table border='1'><tr><th>Name</th>");
+    document.writeln("<td>",person["name"],"</td></tr>");
+    document.writeln("<tr><th>Anschrift</th>");
+    document.writeln("<td>",person["anschrift"],
+            "</td></tr>");
+    document.writeln("<tr><th>PLZ/Ort</th>");
+    document.writeln("<td>",person["plz"]," ",
+            person["ort"],"</td></tr>");
+    document.writeln("</table>");
+
+
+</script>
+
+<script language="JavaScript"
+        type="text/javascript">
+
+    document.writeln("Das Array hat ",
+            person.length," Eintr�ge");
+    /*
+     for (var i = 0; i < person.length; i = i+1)
+     {
+     document.writeln("Inhalt von Feld ",i,
+     " ist ",person[i]);
+     }
+     */
+
+</script>
+
+</body>
+</html>

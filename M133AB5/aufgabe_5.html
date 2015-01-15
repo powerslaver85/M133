@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Tilename:   aufgabe_5.html
+Author:     Ramon Schenk
+Datum:      2014
+Modul:      M133
+Klasse:     Inf12.5H
+-->
+<head>
+    <meta charset="UTF-8" />
+    <title>Kontrollaufgabe 5</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // Hier der jQuery-Code
+            $('.test:eq(0)').css('color', 'red');
+//       $('#eins').css('color', 'yellow');
+            $('.test').css('backgroundColor', 'grey');
+            $('#eins').html('one');
+            $('#zwei').text('two');
+            $('#drei').text('three');
+            $('#vier').text('four');
+        });
+    </script>
+</head>
+<body>
+<h1>Kontrollaufgabe 5</h1>
+<b>
+    Erstellen Sie ein jQuery Script, das alle folgenden Zeilen neu schreibt: <br />
+    Anstelle  eins, zwei, drei, vier  soll one, two, three, four stehen. <br />
+    Die Textfarbe der ersten Zeile soll gelb sein, die andern rot. Die Hintergrundfarbe der Zeilen soll grau sein.
+</b>
+<br />
+<p id="eins" class="test">eins</p>
+<p id="zwei" class="test">zwei</p>
+<p id="drei" class="test">drei</p>
+<p id="vier" class="test">vier</p>
+</body>
+</html>

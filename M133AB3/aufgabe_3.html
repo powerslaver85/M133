@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+Tilename:   aufgabe_3.html
+Author:     Ramon Schenk
+Datum:      2014
+Modul:      M133
+Klasse:     Inf12.5H
+-->
+<html>
+<head><title>JavaScript-Workshop: Musterl�sung</title>
+    <script language="JavaScript" type="text/javascript">
+
+        var besucher_name = "";
+        var duzen = false;
+
+        function strong(text)  {
+            return "<strong>"+text+"</strong>";
+        }
+
+        function begruessung(){
+            besucher_name = prompt("Wie lautet Dein Vorname?","hier eingeben");
+            duzen = confirm("Darf ich Dich duzen?");
+        }
+
+    </script>
+</head>
+
+<body>
+<h1>Herzlich Willkommen!</h1>
+
+<script language="JavaScript" type="text/javascript">
+
+    begruessung();
+
+    document.writeln("<p>Hallo ",strong(besucher_name),", ");
+
+    if (duzen) {
+        document.writeln("ich freue mich, Dich zu sehen!");
+    }
+    else{
+        document.writeln("ich freue mich, Sie zu sehen!");
+    }
+
+    document.writeln("</p>");
+
+</script>
+
+</body>
+</html>

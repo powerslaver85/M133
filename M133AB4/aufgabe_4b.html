@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+Tilename:   aufgabe_4b.html
+Author:     Ramon Schenk
+Datum:      2014
+Modul:      M133
+Klasse:     Inf12.5H
+-->
+<html>
+<head><title>JavaScript-Workshop: Musterl�sung</title>
+    <script language="JavaScript" type="text/javascript">
+
+        var person = new Array();
+
+        // assoziatives array
+        person[0] = new Array();
+        person[0]["name"]      = "Frieden";
+        person[0]["anschrift"] = "Lorrainestrasse 5b";
+        person[0]["plz"]       = "3000";
+        person[0]["ort"]       = "Bern";
+
+        person[1] = new Array();
+        person[1]["name"]      = "M�ller";
+        person[1]["anschrift"] = "Weststrasse 7";
+        person[1]["plz"]       = "8000";
+        person[1]["ort"]       = "Z�rich";
+
+    </script>
+</head>
+<body>
+<h1>Array</h1>
+<script language="JavaScript" type="text/javascript">
+
+    document.writeln("<table border=1>");
+    document.bgColor="#808080";
+    for (var i=0; i<2; i++)  {
+        document.writeln("<tr><td>Name: ",      person[i]["name"], "</td></tr>");
+        document.writeln("<tr><td>Anschrift: ", person[i]["anschrift"], "</td></tr>");
+        document.writeln("<tr><td>Plz: ",       person[i]["plz"], "</td></tr>");
+        document.writeln("<tr><td>Ort: ",       person[i]["ort"], "</td></tr>");
+    }
+    document.writeln("</table>");
+    document.writeln("Das Array hat ", person.length, " Eintr�ge");
+
+</script>
+
+</body>
+</html>

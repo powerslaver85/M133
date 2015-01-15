@@ -1,0 +1,27 @@
+GET & POST AUFGABE 2c
+
+GET
+Bei der GET Übertragung werden die Werte aus dem Formular an die URL angehängt. (Max. Länge 1024 Zeichen ges. URL)
+
+POST
+POST kann wesentlich grössere Datenmengen übertragen, da hier nicht die URL als Übetragungsweg genutzt wird, ideal für
+Bilder, längere Texte (Foren Einträge) etc.
+
+Vorteile GET
+GET Formular Ergebnisse kann man als Bookmark eintragen
+Bei GET sieht der User was er eingegeben hat (Zugegeben ein dünner Vorteil)
+
+Nachteile GET
+Begrenzte Zeichenlänge (1024)
+Vom User Manipulierbar
+Super für Injections
+
+Vorteile POST
+File-Upload
+Nicht vom User einsehbar
+Sicherer als GET
+
+Nachteile POST
+User kann nicht mehr an seine Daten die er gesendet hat.
+Resultate können nicht Gebookmarkt werden
+
